@@ -1,3 +1,5 @@
+# FactorialAPI
+
 <pre>
   ______         _             _       _            _____ _____ 
  |  ____|       | |           (_)     | |     /\   |  __ \_   _|
@@ -9,7 +11,10 @@
                                                                 
 </pre>
 
-# FactorialAPI
+[![stability](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/blazingvx/FactorialAPI)
+![GitHub](https://img.shields.io/github/license/blazingvx/FactorialAPI?style=plastic)
+
+## Overview
 
 FactorialAPI is a Python API that allows you to calculate the factorial of a given number. This API is designed to be simple and easy to use, providing you with a way to calculate factorials in your Python projects.
 
@@ -22,9 +27,9 @@ To use the FactorialAPI, you need to have Python 3.x installed on your machine. 
 First, import the `FactorialAPI` class into your Python script:
 
 ```python
-from factorial_api import FactorialAPI
+from factorial_api import factorial_api
 
-api = FactorialAPI()
+api = factorial_api.FactorialAPI()
 result = api.calculate_factorial(5)
 print(result)  # Output: 120
 ```
